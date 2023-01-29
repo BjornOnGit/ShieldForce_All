@@ -1,0 +1,31 @@
+.nav-container {
+  .nav {
+    display: flex;
+    flex-direction: column;
+
+    @media screen and (min-width: 800px) {
+      display: flex;
+      flex-direction: row;
+    }
+
+    .left {
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (min-width: 800px) {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+
+    .right {
+      display: flex;
+      flex-direction: column;
+
+      @media screen and (min-width: 800px) {
+        display: flex;
+        flex-direction: row;
+      }
+    }
+  }
+}
